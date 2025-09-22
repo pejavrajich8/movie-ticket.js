@@ -1,0 +1,13 @@
+.vscode
+node_modules
+dist
+.env
+.DS_Store
+coverage
+*.log
+.idea
+*.iml   
+
+# MacOS
+*.DS_Store
+Thumbs.db   # Windows

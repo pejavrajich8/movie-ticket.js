@@ -7,3 +7,6 @@ if (age <= 18 || isStudent) {
     console.log("Regular ticket only")
 };
 
+
+
+
