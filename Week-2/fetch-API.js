@@ -1,6 +1,6 @@
 async function fetchProducts() {
     try {
-       const response = await fetch('https://swapi.dev/api/people/1/');
+       const response = await fetch('https://swapi.dev/api/planets/53/');
        const products = await response.json();
        console.log('Products fetched:', products);
        return products;

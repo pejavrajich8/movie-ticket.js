@@ -1,3 +1,24 @@
+function promiseFunction() {
+    return new Promise((resolve, reject) => {
+        if (condition) {
+            resolve('Success!');
+        } else {
+            reject('Failure!');
+        }
+    });
+
+}
+
+promiseFunction().then((variable) => {
+    console.log(variable); // "Success!"
+}).catch((error) => {
+    console.error(error); // "Failure!"
+}).finally(() => {
+    console.log('Promise settled');
+});
+
+
+// Simulating an API call with a Promise
 function fetchProducts() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
